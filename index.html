@@ -1,53 +1,59 @@
 ```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-        content="Vedika Digital provides professional SEO, Social Media Marketing, Meta Ads, WordPress and digital marketing services.">
+        content="Vedika Digital provides professional SEO, Social Media Marketing, Meta Ads, WordPress, Analytics and digital marketing services.">
 
     <meta name="keywords"
-        content="digital marketing, SEO services, social media marketing, Meta Ads, WordPress, Vedika Digital">
+        content="Digital Marketing, SEO, Social Media Marketing, Meta Ads, WordPress, Google Analytics, Google Search Console">
 
     <meta name="author" content="Vedika Digital">
 
     <title>Vedika Digital | Digital Marketing Services</title>
-
-    <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <!-- ================= NAVBAR ================= -->
 
-    <header class="navbar">
+    <header class="navbar" id="navbar">
 
         <a href="#home" class="logo">
             Vedika<span>Digital</span>
         </a>
 
-        <button class="menu-btn" aria-label="Open navigation">
-            ☰
-        </button>
-
         <nav class="navigation">
+
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#process">Process</a>
+            <a href="#faq">FAQ</a>
             <a href="#contact">Contact</a>
+
         </nav>
 
-        <a href="#contact" class="nav-cta">
+        <a href="#contact" class="nav-button">
             Let's Talk
         </a>
+
+        <button class="menu-button" aria-label="Open menu">
+            ☰
+        </button>
 
     </header>
 
@@ -56,52 +62,54 @@
 
         <!-- ================= HERO ================= -->
 
-        <section id="home" class="hero">
+        <section class="hero" id="home">
 
             <div class="hero-content">
 
-                <p class="eyebrow">
+                <div class="hero-badge">
+                    <span></span>
                     DIGITAL MARKETING SERVICES
-                </p>
+                </div>
 
                 <h1>
-                    Turn your online presence into
-                    <span>real growth.</span>
+                    Build a stronger
+                    <span>digital presence.</span>
                 </h1>
 
-                <p class="hero-text">
-                    Helping businesses build visibility, reach the right
-                    audience and grow online through practical digital
-                    marketing strategies.
+                <p class="hero-description">
+                    I help businesses improve their online visibility,
+                    connect with the right audience and turn digital
+                    marketing into measurable growth.
                 </p>
 
                 <div class="hero-buttons">
 
-                    <a href="#contact" class="btn primary-btn">
-                        Start a Conversation
+                    <a href="#contact" class="button primary">
+                        Start a Project
+                        <span>→</span>
                     </a>
 
-                    <a href="#services" class="btn secondary-btn">
+                    <a href="#services" class="button outline">
                         Explore Services
                     </a>
 
                 </div>
 
-                <div class="trust-row">
+                <div class="hero-stats">
 
                     <div>
                         <strong>SEO</strong>
-                        <small>Search Visibility</small>
+                        <span>Organic Visibility</span>
                     </div>
 
                     <div>
                         <strong>Social</strong>
-                        <small>Audience Growth</small>
+                        <span>Audience Growth</span>
                     </div>
 
                     <div>
                         <strong>Ads</strong>
-                        <small>Paid Reach</small>
+                        <span>Paid Campaigns</span>
                     </div>
 
                 </div>
@@ -109,44 +117,64 @@
             </div>
 
 
-            <!-- Hero Visual -->
-
             <div class="hero-visual">
 
-                <div class="glow"></div>
+                <div class="hero-glow"></div>
 
-                <div class="dashboard">
+                <div class="growth-card">
 
-                    <div class="dashboard-header">
-                        <span>Digital Growth</span>
-                        <span>↗</span>
+                    <div class="growth-header">
+
+                        <div>
+                            <span>Performance</span>
+                            <strong>Digital Growth</strong>
+                        </div>
+
+                        <div class="growth-icon">
+                            ↗
+                        </div>
+
                     </div>
+
+
+                    <div class="growth-number">
+                        +78.4%
+                        <span>Visibility</span>
+                    </div>
+
 
                     <div class="chart">
 
-                        <div class="bar bar-1"></div>
-                        <div class="bar bar-2"></div>
-                        <div class="bar bar-3"></div>
-                        <div class="bar bar-4"></div>
-                        <div class="bar bar-5"></div>
-                        <div class="bar bar-6"></div>
+                        <div class="chart-line"></div>
+
+                        <div class="chart-bars">
+                            <i style="height:35%"></i>
+                            <i style="height:44%"></i>
+                            <i style="height:38%"></i>
+                            <i style="height:58%"></i>
+                            <i style="height:51%"></i>
+                            <i style="height:73%"></i>
+                            <i style="height:65%"></i>
+                            <i style="height:90%"></i>
+                        </div>
 
                     </div>
 
-                    <div class="metrics">
 
-                        <div class="metric">
-                            <small>Visibility</small>
-                            <strong>+78%</strong>
-                        </div>
+                    <div class="growth-bottom">
 
-                        <div class="metric">
-                            <small>Reach</small>
+                        <div>
+                            <span>Reach</span>
                             <strong>+64%</strong>
                         </div>
 
-                        <div class="metric">
-                            <small>Growth</small>
+                        <div>
+                            <span>Engagement</span>
+                            <strong>+48%</strong>
+                        </div>
+
+                        <div>
+                            <span>Growth</span>
                             <strong>+52%</strong>
                         </div>
 
@@ -154,6 +182,42 @@
 
                 </div>
 
+
+                <div class="floating-card card-one">
+                    <span>SEO</span>
+                    <strong>Search Growth</strong>
+                    <small>Organic visibility</small>
+                </div>
+
+                <div class="floating-card card-two">
+                    <span>ADS</span>
+                    <strong>Targeted Reach</strong>
+                    <small>Relevant audiences</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TRUST STRIP ================= -->
+
+        <section class="trust-strip">
+
+            <p>
+                DIGITAL MARKETING THAT CONNECTS
+            </p>
+
+            <div class="trust-items">
+                <span>SEO</span>
+                <span>•</span>
+                <span>Social Media</span>
+                <span>•</span>
+                <span>Meta Ads</span>
+                <span>•</span>
+                <span>WordPress</span>
+                <span>•</span>
+                <span>Analytics</span>
             </div>
 
         </section>
@@ -161,262 +225,44 @@
 
         <!-- ================= ABOUT ================= -->
 
-        <section id="about" class="section about-section">
+        <section class="section about" id="about">
 
-            <div class="section-heading">
-
-                <p class="eyebrow">
-                    ABOUT
-                </p>
-
-                <h2>
-                    Marketing that is
-                    <span>practical, clear and growth-focused.</span>
-                </h2>
-
+            <div class="section-label">
+                <span>01</span>
+                ABOUT
             </div>
 
+            <div class="about-layout">
 
-            <div class="about-grid">
+                <div class="about-heading">
 
-                <div class="about-description">
-
-                    <p>
-                        Vedika Digital helps businesses strengthen their
-                        online presence with focused digital marketing
-                        services.
-                    </p>
-
-                    <p>
-                        From improving search visibility to building a
-                        stronger social media presence, every service is
-                        designed around clear goals and consistent execution.
-                    </p>
+                    <h2>
+                        Digital marketing
+                        <span>with purpose.</span>
+                    </h2>
 
                 </div>
 
 
-                <div class="about-points">
+                <div class="about-content">
 
-                    <div class="about-point">
-
-                        <span>01</span>
-
-                        <div>
-                            <h3>Strategy</h3>
-                            <p>
-                                Understand the business, audience and goals.
-                            </p>
-                        </div>
-
-                    </div>
-
-
-                    <div class="about-point">
-
-                        <span>02</span>
-
-                        <div>
-                            <h3>Execution</h3>
-                            <p>
-                                Implement practical digital marketing
-                                activities.
-                            </p>
-                        </div>
-
-                    </div>
-
-
-                    <div class="about-point">
-
-                        <span>03</span>
-
-                        <div>
-                            <h3>Optimization</h3>
-                            <p>
-                                Monitor performance and improve what matters.
-                            </p>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= SERVICES ================= -->
-
-        <section id="services" class="section services-section">
-
-            <div class="section-heading center">
-
-                <p class="eyebrow">
-                    SERVICES
-                </p>
-
-                <h2>
-                    What I can help you
-                    <span>grow.</span>
-                </h2>
-
-                <p>
-                    Digital marketing services designed around your
-                    business goals.
-                </p>
-
-            </div>
-
-
-            <div class="service-grid">
-
-
-                <!-- Service 1 -->
-
-                <article class="service-card">
-
-                    <div class="service-icon">
-                        SEO
-                    </div>
-
-                    <h3>
-                        Search Engine Optimization
-                    </h3>
-
-                    <p>
-                        Improve your website's search visibility with
-                        on-page, off-page and technical SEO strategies.
+                    <p class="large-text">
+                        A strong digital presence is more than just
+                        having a website or posting on social media.
                     </p>
 
-                    <a href="#contact">
-                        Get started →
-                    </a>
-
-                </article>
-
-
-                <!-- Service 2 -->
-
-                <article class="service-card">
-
-                    <div class="service-icon">
-                        SM
-                    </div>
-
-                    <h3>
-                        Social Media Marketing
-                    </h3>
-
                     <p>
-                        Build a stronger social presence with content
-                        planning, profile optimization and audience-focused
-                        strategies.
+                        Vedika Digital focuses on practical digital
+                        marketing strategies that help businesses
+                        become more visible, reach relevant audiences
+                        and build a stronger online presence.
                     </p>
 
-                    <a href="#contact">
-                        Get started →
-                    </a>
-
-                </article>
-
-
-                <!-- Service 3 -->
-
-                <article class="service-card">
-
-                    <div class="service-icon">
-                        AD
-                    </div>
-
-                    <h3>
-                        Meta Ads
-                    </h3>
-
                     <p>
-                        Reach relevant audiences through practical
-                        Facebook and Instagram advertising campaigns.
+                        From SEO and social media to paid advertising
+                        and website optimization, every activity starts
+                        with understanding the business and its goals.
                     </p>
 
-                    <a href="#contact">
-                        Get started →
-                    </a>
 
-                </article>
-
-
-                <!-- Service 4 -->
-
-                <article class="service-card">
-
-                    <div class="service-icon">
-                        WP
-                    </div>
-
-                    <h3>
-                        WordPress Websites
-                    </h3>
-
-                    <p>
-                        Create professional websites and landing pages
-                        designed for a strong online presence.
-                    </p>
-
-                    <a href="#contact">
-                        Get started →
-                    </a>
-
-                </article>
-
-
-                <!-- Service 5 -->
-
-                <article class="service-card">
-
-                    <div class="service-icon">
-                        EM
-                    </div>
-
-                    <h3>
-                        Email & WhatsApp Marketing
-                    </h3>
-
-                    <p>
-                        Connect with customers through simple,
-                        consistent and audience-focused communication.
-                    </p>
-
-                    <a href="#contact">
-                        Get started →
-                    </a>
-
-                </article>
-
-
-                <!-- Service 6 -->
-
-                <article class="service-card">
-
-                    <div class="service-icon">
-                        GA
-                    </div>
-
-                    <h3>
-                        Analytics & GSC
-                    </h3>
-
-                    <p>
-                        Track website and search performance using
-                        Google Analytics and Search Console.
-                    </p>
-
-                    <a href="#contact">
-                        Get started →
-                    </a>
-
-                </article>
-
-            </div>
-
-        </
+                    <div class="about-high
